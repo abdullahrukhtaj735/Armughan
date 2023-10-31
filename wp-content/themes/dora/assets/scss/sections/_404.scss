@@ -1,0 +1,44 @@
+.error-contnet {
+  text-align: center;
+}
+h2.error-content {
+  font-size: 50px;
+  color: #000000;
+}
+.error-icon-container {
+  i {
+    font-size: 200px;
+    line-height: 1;
+    color: #eeeeee;
+  }
+}
+.error-contnet {
+  width: 600px;
+  margin: 0 auto;
+  .dora_search {
+    margin-top: 70px;
+    input {
+      background: #fafbfd;
+      border: var(--cf-dark);
+    }
+    input,
+    button {
+      border: 1px solid #fafbfd;
+      border-radius: 0;
+    }
+  }
+}
+.page-header {
+  .page-title {
+    color: var(--cf-dark);
+  }
+}
+.search-content-page {
+  .dora_search {
+    margin-top: 20px;
+    input {
+      background: #fafbfd;
+      border: var(--cf-dark);
+    }
+  }
+}

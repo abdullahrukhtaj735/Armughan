@@ -1,0 +1,95 @@
+/*---------------------------------------------------
+                dora Default css                   
+---------------------------------------------------*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: $primary_font;
+  color: var(--cf-text-gray);
+  font-size: 16px;
+  line-height: 1.8;
+  overflow-x: hidden;
+  width: 100%;
+}
+p {
+  color: var(--cf-text-gray);
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+.blog-details {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: #343a40;
+  }
+}
+a {
+  color: unset;
+  text-decoration: none;
+  display: inline-block;
+}
+hr {
+  margin: 1rem 0;
+  color: inherit;
+  background-color: currentColor;
+  border: 0;
+  opacity: 0.25;
+}
+.input-control,
+input {
+  margin-bottom: 25px;
+  padding: 15px 30px;
+  width: 100%;
+  display: block;
+  background-color: var(--cf-white);
+  border: 2px solid #eeeeee;
+  &:focus {
+    outline: none;
+    border-color: var(--cf-primary-color);
+  }
+}
+input {
+  color: var(--cf-text-gray);
+}
+
+// Scrollbar
+// ::-webkit-scrollbar {
+//   width: 5px;
+//   border-radius: 20px;
+// }
+
+// ::-webkit-scrollbar-track {
+//   background: #f1f1f1;
+// }
+
+// ::-webkit-scrollbar-thumb {
+//   background: #555;
+//   border-radius: 60px;
+// }
+// ::-webkit-scrollbar-thumb:hover {
+//   background: #555;
+// }

@@ -1,0 +1,18 @@
+.codeeflyicon-elementor:after {
+  content: "Dora";
+  position: absolute;
+  left: 0px;
+  top: 5px;
+  padding: 2px 3px;
+  display: block;
+  font-size: 10px;
+  background-color: #a9b1b7;
+  color: #fff;
+  font-family: Roboto, Arial, Helvetica, Verdana, sans-serif;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+.elementor-widget:not(:last-child) {
+  margin-bottom: 0px !important;
+}

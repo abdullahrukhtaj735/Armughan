@@ -1,0 +1,26 @@
+
+---Downloaded files---
+The import files for: Home Main were successfully downloaded!
+Initial max execution time = 300
+Files info:
+Site URL = https://wp.shsarker.xyz/dora
+Data file = /home5/shsarker/public_html/wp.shsarker.xyz/dora/wp-content/themes/dora/sample-data/contents-demo.xml
+Widget file = /home5/shsarker/public_html/wp.shsarker.xyz/dora/wp-content/themes/dora/sample-data/widget-settings.json
+Customizer file = /home5/shsarker/public_html/wp.shsarker.xyz/dora/wp-content/themes/dora/sample-data/customizer-data.dat
+Redux files:
+not defined!
+
+---Importing widgets---
+Blog Sidebar : 
+
+Search - No Title - Imported
+Categories - Category - Imported
+Tag Cloud - Tags - Imported
+
+widgetopts_exported : Sidebar does not exist in theme (moving widget to Inactive)
+
+
+
+
+---Importing customizer settings---
+Customizer settings import finished!

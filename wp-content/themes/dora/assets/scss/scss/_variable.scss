@@ -1,0 +1,54 @@
+// Font Family
+$primary_font: "Poppins", sans-serif;
+
+// Colors
+$primary: #fd6e0a;
+$white: #ffffff;
+$dark: #15295f;
+$textGray: #6f6b80;
+$blue: #15295f;
+$purple: #9c19c9;
+$red: #ff4e6e;
+$yellow: #ffaf00;
+$cyan: #4ac3ca;
+
+// BG
+$heroBg: #fdf8f7;
+$arrowBg: #ececec;
+$progressBarBg: #cdcdcd;
+$blogBg: #1f1d2b;
+
+// Border
+$border: #f2f2f2;
+
+// Container Width
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1320px,
+);
+
+$colors: (
+  "primary-color": "#fd6e0a",
+  "white": "#ffffff",
+  "dark": "#15295f",
+  "blue": "#15295f",
+  "text-gray": "#6f6b80",
+  "red": "#ff4e6e",
+  "yellow": "#ffaf00",
+  "purple": "#9c19c9",
+  "hero-bg": "#fdf8f7",
+  "arrow-bg": "#ececec",
+  "blog-bg": "#1f1d2b",
+  "progress-bar-bg": "#cdcdcd",
+  "border-color": "#f2f2f2",
+  "cyan": "#4ac3ca",
+);
+
+:root {
+  @each $name, $code in $colors {
+    --cf-#{$name}: #{$code};
+  }
+}

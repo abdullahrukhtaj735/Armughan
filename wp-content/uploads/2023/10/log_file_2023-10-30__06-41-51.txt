@@ -1,0 +1,34 @@
+
+---Downloaded files---
+The import files for: Home Main were successfully downloaded!
+Initial max execution time = 120
+Files info:
+Site URL = http://localhost/Arghumaan
+Data file = C:\xampp\htdocs\Arghumaan/wp-content/themes/dora/sample-data/contents-demo.xml
+Widget file = C:\xampp\htdocs\Arghumaan/wp-content/themes/dora/sample-data/widget-settings.json
+Customizer file = C:\xampp\htdocs\Arghumaan/wp-content/themes/dora/sample-data/customizer-data.dat
+Redux files:
+not defined!
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+---Importing widgets---
+Blog Sidebar : 
+
+Search - No Title - Imported
+Categories - Category - Imported
+Tag Cloud - Tags - Imported
+
+widgetopts_exported : Sidebar does not exist in theme (moving widget to Inactive)
+
+
+
+
+---Importing customizer settings---
+Customizer settings import finished!

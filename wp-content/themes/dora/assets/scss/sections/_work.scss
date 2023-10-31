@@ -1,0 +1,68 @@
+/*---------------------------------------------------
+               dora Work Section css                   
+---------------------------------------------------*/
+
+.works-section {
+  ul {
+    list-style: none;
+  }
+}
+
+.works-list-ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px 25px;
+  margin: 15px 0 40px;
+  transform: all 0.5s ease;
+  @media only screen and (max-width: 530px) {
+    flex-wrap: wrap;
+  }
+  li {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: var(--cf-dark);
+    cursor: pointer;
+    &:hover {
+      color: var(--cf-primary-color);
+    }
+    &.active {
+      color: var(--cf-primary-color);
+    }
+  }
+}
+.works-col {
+  width: 33%;
+  overflow: hidden;
+  float: left;
+  // margin-bottom: 30px;
+  @include responsive("tablet-small") {
+    width: 49%;
+  }
+  @media only screen and (max-width: 530px) {
+    width: 100%;
+    a {
+      margin: 0 auto;
+    }
+  }
+  a {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    transition: all 0.5s ease;
+    // display: block;
+    overflow: hidden;
+    &:hover {
+      img {
+        transform: scale(1.1);
+      }
+    }
+  }
+  img {
+    display: block;
+    max-width: 100%;
+    transition: all 0.5s ease;
+  }
+}
